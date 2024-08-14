@@ -9,10 +9,14 @@
 body {
     background-color:  #74a7e4;
 }
+header {
+    display: flex;
+    justify-content: center;
+   
+}
 div img {
     height: 150px;
     margin-top: 20px;
-    margin-left: 485px;
     height: 150px;
     border-radius: 100px;
     width: 150px;
@@ -20,8 +24,8 @@ div img {
     width: 150px;
 }
 .name {
-    margin-left: 500px;
-    margin-top: 15px;
+   display: flex;
+   justify-content: center;
 }
 form {
     width: 400px;
